@@ -3,18 +3,22 @@
 <head>
 	<title> Is It Magic? </title>
 </head>
-<style type="text/css" src="css/styles.css"></style>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 <body>
 
 	<div id="push">
-		<button> PUSH FOR MAGIC</button>
+		<button onclick="getElementById('actualWords').innerHTML = 'Sorry Kids, Magic Isnt Real. Neither Is Santa.'"> PUSH FOR MAGIC</button>
+		
 	</div>
+	<p></p>
+	<p></p>
 	<div id="words">
 		<p id="actualWords">
 			
 		</p>
+		<button id="LOL" onclick="getElementById('actualWords').innerHTML = ''">LOL</button>
 	</div>
 
 </body>
-<script type="text/javascript" src="js/app.js"></script>
+<script src="js/app.js"></script>
 </html>

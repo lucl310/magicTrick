@@ -1,3 +1,12 @@
 body{
 	background-color: grey;
+	text-align: center;
+	font-size: 30px;
+}
+#actualWords{
+	color: white;
+}
+#LOL{
+	color: black;
+	size: 25px;
 }

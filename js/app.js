@@ -1,8 +1,14 @@
 var pushes = 0
-if (pushes >= 1) {
-	document.getElementById('actualWords') = "Sorry Kids, Magic Isnt Real. Neither Is Santa."
-	var pushes = pushes - 1
+
+console.log('i work')
+
+function click() {
+	var pushes = pushes + 1
+	console.log("I work")
 }
-if (pushes === 0) {
-	document.getElementById('actualWords') = ""
+function unclick() {
+	
+	if (pushes >= 1) {
+	var pushes = pushes - 1
+	}
 }
